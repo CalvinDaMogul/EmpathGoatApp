@@ -14,8 +14,12 @@ namespace EmpathGoatApp
 
             Goat Jeff = new Goat("Jeff");
             Jeff.makeNoise();
-
-            Goat LilJeff = new Goat();
+            Goat Keisha = new Goat("Keisha");
+            Keisha.makeNoise();
+            Goat Jim = new Goat("Jim");
+            Jim.makeNoise();
+            Keisha.SubscribeToGoat(Jim);
+            Jim.makeNoise();
 
 
             Console.ReadKey();

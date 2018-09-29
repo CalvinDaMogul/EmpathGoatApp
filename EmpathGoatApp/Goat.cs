@@ -10,7 +10,7 @@ namespace EmpathGoatApp
     {
         string name { get; set; }
 
-
+         public event Action makeNoiseEvent;
 
         public Goat()
         {
@@ -22,10 +22,21 @@ namespace EmpathGoatApp
             name = _name;
         }
 
+         public void Feeling()
+        {
+            Console.WriteLine(name+": I felt a goat Baahh!!!");
+        }
+
         public void makeNoise()
         {
             Console.WriteLine("My name is "+name+". Baahh!!!");
+            makeNoiseEvent?.Invoke();
         }
+        
+       public void SubscribeToGoat(Goat foreignGoat) {
+            foreignGoat.makeNoiseEvent += new System.Action(Feeling);
+}
+
         
     }
    
