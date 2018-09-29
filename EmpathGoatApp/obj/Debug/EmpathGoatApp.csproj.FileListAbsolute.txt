@@ -1,0 +1,7 @@
+C:\Users\caljf\source\repos\EmpathGoatApp\EmpathGoatApp\bin\Debug\EmpathGoatApp.exe.config
+C:\Users\caljf\source\repos\EmpathGoatApp\EmpathGoatApp\bin\Debug\EmpathGoatApp.exe
+C:\Users\caljf\source\repos\EmpathGoatApp\EmpathGoatApp\bin\Debug\EmpathGoatApp.pdb
+C:\Users\caljf\source\repos\EmpathGoatApp\EmpathGoatApp\obj\Debug\EmpathGoatApp.csprojAssemblyReference.cache
+C:\Users\caljf\source\repos\EmpathGoatApp\EmpathGoatApp\obj\Debug\EmpathGoatApp.csproj.CoreCompileInputs.cache
+C:\Users\caljf\source\repos\EmpathGoatApp\EmpathGoatApp\obj\Debug\EmpathGoatApp.exe
+C:\Users\caljf\source\repos\EmpathGoatApp\EmpathGoatApp\obj\Debug\EmpathGoatApp.pdb
