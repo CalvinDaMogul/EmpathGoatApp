@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Duck.cs" />
     <Compile Include="EGoat.cs" />
     <Compile Include="Goat.cs" />
     <Compile Include="Program.cs" />
