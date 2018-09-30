@@ -18,8 +18,12 @@ namespace EmpathGoatApp
             Keisha.makeNoise();
             Goat Jim = new Goat("Jim");
             Jim.makeNoise();
+            Goat Mildred = new Goat("Mildred");
+            Mildred.makeNoise();
             Keisha.SubscribeToGoat(Jim);
+            Jim.SubscribeToGoat(Mildred);
             Jim.makeNoise();
+            Mildred.makeNoise();
 
 
             Console.ReadKey();
