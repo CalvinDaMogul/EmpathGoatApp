@@ -31,6 +31,9 @@ namespace EmpathGoatApp
             Ricky.makeNoise();
             Duck Eliza = new Duck("Eliza");
             Eliza.SubscribeToDuck(James);
+            Duck Leslie = new Duck("Leslie");
+            Leslie.makeNoise();
+            Leslie.SubscribeToDuck(Ricky);
             Duck Cheryl = new Duck("Cheryl");
             Cheryl.SubscribeToDuck(Ricky);
             James.makeNoise();
