@@ -33,6 +33,8 @@ namespace EmpathGoatApp
             Eliza.SubscribeToDuck(James);
             Duck Cheryl = new Duck("Cheryl");
             Cheryl.SubscribeToDuck(Ricky);
+            James.makeNoise();
+            Ricky.makeNoise();
 
 
             Console.ReadKey();
